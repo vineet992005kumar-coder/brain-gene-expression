@@ -36,7 +36,9 @@ I can't say this proves where Alzheimer's starts. GWAS genes only show DNA varia
 - `brain_gene_expression.ipynb`: full code and outputs
 - `gwas-association-downloaded_2026-10-15-MONDO_0004975-withChildTraits.tsv`: GWAS Catalog associations for Alzheimer's disease (MONDO_0004975), the input gene data
 - The Desikan-Killiany atlas is downloaded automatically in the notebook with `abagen.fetch_desikan_killiany()`, so it is not stored here.
-- The notebook also creates `ahba.csv` (expression table), `gene_list.csv` (1,093 genes at p < 5e-8) and `results.csv` (z-score, p-value and corrected p-value for each region).
+- `results.csv`: z-score, p-value and corrected p-value for each of the 83 regions
+- `brain_zscore.png`: brain map of the z-scores (red = risk genes more active than random genes, blue = less active)
+- The notebook also creates `ahba.csv` (expression table) and `gene_list.csv` (1,093 genes at p < 5e-8). These are not stored here.
 
 ## How to run
 The notebook was run in Google Colab. The GWAS file is read from `/content/`, so upload the `.tsv` file there before running the GWAS cells.
