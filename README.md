@@ -22,8 +22,7 @@ I can't say this proves where Alzheimer's starts. GWAS genes only show DNA varia
 
 ## Files
 - `brain_gene_expression.ipynb`: full code and outputs
-- `gene_list.csv`: the 474 Alzheimer's genes used
-- `ahba.csv`: expression matrix (83 x 15,633), if uploaded
-
+- `gwas-association-downloaded_2026-10-15-MONDO_0004975-withChildTraits.tsv`: GWAS Catalog associations for Alzheimer's disease (MONDO_0004975), the input gene data
+- The Desikan-Killiany atlas is downloaded automatically in the notebook with `abagen.fetch_desikan_killiany()`, so it is not stored here.
 ## Notes
 abagen needed a small fix to work with newer pandas. I used an AI assistant to help debug code and understand concepts.
