@@ -10,13 +10,13 @@ I chose Alzheimer's disease because it has many GWAS studies, so the gene list i
 For each brain region, I took the average expression of the 474 Alzheimer's genes. A higher score means these genes are more active there. The top 10 regions were all cortical (for example frontal pole, transverse temporal, parsopercularis and entorhinal). The bottom 10 were all subcortical (brainstem, accumbens, amygdala, caudate, putamen, hippocampus). Scores range from about 0.48 to 0.54, so the difference is small.
 
 ## Random gene test (cortex only)
-To check if the pattern was real, I compared my 474 genes against 1,000 random gene lists of the same size. I only used cortical regions, because cortex and subcortex differ a lot in expression anyway. The most significant regions were lateral occipital, transverse temporal, lingual, isthmus cingulate and precuneus (p between 0.000 and 0.002). The entorhinal cortex, an early Alzheimer's region, was not significant (left p = 0.073, right p = 0.084). I did not correct for multiple testing, so the p-values should be read with caution.
+To check if the pattern was real, I compared my 474 genes against 1,000 random gene lists of the same size. I only used cortical regions, because cortex and subcortex differ a lot in expression anyway. The most significant regions were transverse temporal, frontal pole (right), lateral occipital, isthmus cingulate, superior temporal and lingual (p between 0.000 and 0.005). The entorhinal cortex, an early Alzheimer's region, was borderline (left p = 0.051, right p = 0.050). I did not correct for multiple testing, so the p-values should be read with caution.
 
 ## Conclusion
 
 I wanted to see if Alzheimer's risk genes are more active in some brain regions than others. I used 474 genes from GWAS and compared their expression across 83 regions.
 
-The genes were more active than random genes in several cortical areas, mainly occipital, temporal and cingulate regions (lateral occipital, transverse temporal, lingual, isthmus cingulate and precuneus). I was a bit surprised that entorhinal cortex did not come out significant (p = 0.073 and 0.084), because it is one of the first regions damaged in Alzheimer's.
+The genes were more active than random genes in several cortical areas, mainly temporal, occipital and cingulate regions (transverse temporal, superior temporal, lateral occipital, lingual and isthmus cingulate). I was a bit surprised that entorhinal cortex was only borderline (p = 0.051 and 0.050), because it is one of the first regions damaged in Alzheimer's.
 
 I can't say this proves where Alzheimer's starts. GWAS genes only show DNA variants linked to risk, the expression data comes from 6 healthy donors, and I did not correct for multiple testing. Still, it suggests that risk genes are not spread evenly across the brain.
 
